@@ -51,6 +51,11 @@ select:-webkit-autofill {
   border-radius: 4px;
 }
 
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
 
 .styled-input label {
   color: #999;
