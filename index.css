@@ -1,20 +1,9 @@
-
 body {
-    background-color: #aaaaaa;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
+  background-color: #222024;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
-
-div {
-    width: 100vw;
-    height: 100vh;
-}
-
-.container {
-    background-color: #222024;
-  }
-
 header {
   font-size: 15px;
   box-sizing: border-box;
@@ -28,7 +17,6 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 85vh;
 }
 
 nav ul {
@@ -101,7 +89,8 @@ a:hover::before {
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 150px;
+  display: flex;
+  font-size: 700%;
   color: #fff;
   text-transform: uppercase;
   animation: flip 2s infinite;
@@ -114,6 +103,30 @@ a:hover::before {
   }
 }
 
+/* Mobile */
+.container {
+  padding: 4%;
+}
 
+/* Tablet */
+@media (min-width: 600px) {
+  .container {
+    padding: 3%;
+  }
+}
 
-
+/* Desktop */
+@media (min-width: 900px) {
+  .container {
+    padding: 2%;
+  }
+}
+.div{
+    align-items: center;
+    display: flex;
+    background-color: #aaaaaa;
+    border: 30px solid #aaaaaa;
+    padding: 200px;
+    margin: 20px;
+    height: 300%;
+  }
