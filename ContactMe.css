@@ -229,4 +229,7 @@ body {
     font-family: "Eczar";
     src: url(/Users/humphrey/amoahy15.github.io/amoahy15.github.io/Eczar-VariableFont_wght.ttf);
   }
-  
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
