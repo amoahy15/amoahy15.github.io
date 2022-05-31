@@ -16,7 +16,6 @@ body {
     margin: 8px 0;
     box-sizing: border-box;
     font-size: 40px;
-  
     display: inline-block;
     align-items: center;
     text-align: center;
@@ -48,7 +47,7 @@ body {
   
   @media only screen and (max-width: 768px){
     .styled-input {
-        width:100%;
+        width:80%;
     }
   }
   
@@ -180,28 +179,18 @@ body {
   a:hover::before {
     width: 100%;
   }
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  
 
-  @keyframes flip {
-    0%,
-    80% {
-      transform: rotateY(360deg);
-    }
-  }
   /* Mobile */
   .container {
-    padding: 4%;
+    
     background-color: #222024;
   }
   
   /* Tablet */
   @media (min-width: 600px) {
     .container {
-      padding: 3%;
+     
       background-color: #222024;
     }
   }
@@ -209,7 +198,7 @@ body {
   /* Desktop */
   @media (min-width: 900px) {
     .container {
-      padding: 2%;
+    
       background-color: #222024;
     }
   }
