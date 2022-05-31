@@ -5,19 +5,19 @@
 }
 
 body {
-  background-color: #111;
+  background-image:linear-gradient(to bottom, #020024, #046f85);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  font-family: "AN";
 }
 
 header {
   font-size: 15px;
   opacity: 0.8;
   font-family: "Times New Roman", Courier, monospace;
- 
 }
 .waviy {
   position: relative;
@@ -99,7 +99,6 @@ a:hover::before {
 /* Mobile */
 .container {
   padding: 4%;
-  background-color: #111;
   position: absolute;
   top: 0%;
 }
@@ -108,7 +107,6 @@ a:hover::before {
 @media (min-width: 600px) {
   .container {
     padding: 3%;
-    background-color: #111;
     position: absolute;
     top: 0%;
   }
@@ -118,13 +116,16 @@ a:hover::before {
 @media (min-width: 900px) {
   .container {
     padding: 2%;
-    background-color: #111;
     position: absolute;
     top: 0%;
   }
 }
+@font-face {
+  font-family:"Eczar";
+  src: url("https://github.com/amoahy15/amoahy15.github.io/blob/38f30e2a73dfbbdeacbb31b8feae5530c4991822/static/Eczar-Bold.ttf") format(truetype);
+}
 
-@viewport {
-  width: device-width;
-  zoom: 1;
+@font-face {
+  font-family: "AN";
+  src: url("https://github.com/amoahy15/amoahy15.github.io/blob/main/archivonarrow/ArchivoNarrow-Italic%5Bwght%5D.ttf") format(truetype);
 }
