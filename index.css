@@ -9,7 +9,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   min-height: 100vh;
+}
+
+header {
+  font-size: 15px;
+  opacity: 0.8;
+  font-family: "Times New Roman", Courier, monospace;
+ 
 }
 .waviy {
   position: relative;
@@ -28,21 +36,6 @@ body {
   80% {
     transform: rotateY(360deg);
   }
-}
-
-header {
-  font-size: 15px;
-  box-sizing: border-box;
-  
-  align-items: center;
-  text-align: center;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.8;
-  font-family: "Times New Roman", Courier, monospace;
-  background-color: #222024;
 }
 
 nav ul {
@@ -103,7 +96,30 @@ a:hover {
 a:hover::before {
   width: 100%;
 }
+/* Mobile */
+.container {
+  padding: 4%;
+  position: absolute;
+  top: 0%;
+}
 
+/* Tablet */
+@media (min-width: 600px) {
+  .container {
+    padding: 3%;
+    position: absolute;
+    top: 0%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .container {
+    padding: 2%;
+    position: absolute;
+    top: 0%;
+  }
+}
 
 @viewport {
   width: device-width;
