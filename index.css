@@ -17,9 +17,12 @@ body {
 
 header {
   font-size: 15px;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
   opacity: 0.8;
-  font-family: 'Eczar', serif;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: "Eczar", serif;
+  font-family: "Archivo Narrow", sans-serif;
 }
 .waviy {
   position: relative;
