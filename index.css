@@ -1,132 +1,143 @@
-body {
-  background-color: #222024;
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-}
-header {
-  font-size: 15px;
-  box-sizing: border-box;
-  display: block;
-  text-align: center;
-  opacity: 0.8;
-  font-family: "Times New Roman", Courier, monospace;
-}
-.center-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 200%;
-  font-weight: 700;
-}
-nav li {
-  list-style: none;
-  display: block;
-  margin-left: 2em;
-  margin-right: 2em;
-}
-nav li {
-  display: inline-block;
-  padding: 5px 5px;
-}
-li:last-child a {
-  margin-right: 0;
-}
-
-a {
-  background-image: linear-gradient(
-    to right,
-    #54b3d6,
-    #54b3d6 50%,
-    #ffffff 50%
-  );
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline-block;
-  padding: 10px 0;
-  text-align: center;
-  position: relative;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.5s ease-in-out;
-}
-
-a:before {
-  content: "";
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-
-a:hover {
-  background-position: 0;
-}
-
-a:hover::before {
-  width: 100%;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.waviy {
-  position: relative;
-}
-.waviy span {
-  position: relative;
-  display: inline-block;
-  display: flex;
-  font-size: 700%;
-  color: #fff;
-  text-transform: uppercase;
-  animation: flip 2s infinite;
-  animation-delay: calc(0.2s * var(--i));
-}
-@keyframes flip {
-  0%,
-  80% {
-    transform: rotateY(360deg);
-  }
-}
-
-/* Mobile */
-.container {
-  padding: 4%;
-}
-
-/* Tablet */
-@media (min-width: 600px) {
-  .container {
-    padding: 3%;
-  }
-}
-
-/* Desktop */
-@media (min-width: 900px) {
-  .container {
-    padding: 2%;
-  }
-}
-.div{
-    align-items: center;
-    display: flex;
+.body {
     background-color: #aaaaaa;
-    border: 30px solid #aaaaaa;
-    padding: 200px;
-    margin: 20px;
-    height: 300%;
+   }
+    
+    
+   header{
+    font-size: 15px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    opacity: 0.8;
+    font-family: "Times New Roman", Courier, monospace;
+   }
+   .center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+   }
+    
+    
+   nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+   }
+   nav li {
+    list-style: none;
+    display: block;
+    margin-left: 2em;
+    margin-right: 2em;
+   }
+   nav li {
+    display: inline-block;
+    padding: 5px 5px;
+   }
+   li:last-child a {
+    margin-right: 0;
+   }
+    
+   a {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #ffffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease-in-out;
+   }
+    
+   a:before {
+    content: "";
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+   }
+    
+   a:hover {
+    background-position: 0;
+   }
+    
+   a:hover::before {
+    width: 100%;
+   }
+   * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+    
+   .waviy {
+    position: relative;
+   }
+   .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(0.2s * var(--i));
+   }
+   @keyframes flip {
+    0%,
+    80% {
+      transform: rotateY(360deg);
+    }
+   }
+    
+
+   header {
+    font-size: 15px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    opacity: 0.8;
+    font-family: "Times New Roman", Courier, monospace;
+    background-color: #222024;
+   }
+   /* Mobile */
+   .container {
+    padding: 4%;
+    background-color: #222024;
+   }
+    
+   /* Tablet */
+   @media (min-width: 600px) {
+    .container {
+      padding: 3%;
+      background-color: #222024;
+    }
+   }
+    
+   /* Desktop */
+   @media (min-width: 900px) {
+    .container {
+      padding: 2%;
+      background-color: #222024;
+    }
+   }
+   @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
   }
+  
+   
+   
