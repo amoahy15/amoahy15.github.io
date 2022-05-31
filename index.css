@@ -11,13 +11,15 @@ body {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  font-family: "AN";
+  font-family: 'Eczar', serif;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 header {
   font-size: 15px;
   opacity: 0.8;
-  font-family: "Times New Roman", Courier, monospace;
+  font-family: 'Eczar', serif;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 .waviy {
   position: relative;
@@ -120,12 +122,5 @@ a:hover::before {
     top: 0%;
   }
 }
-@font-face {
-  font-family:"Eczar";
-  src: url("https://github.com/amoahy15/amoahy15.github.io/blob/38f30e2a73dfbbdeacbb31b8feae5530c4991822/static/Eczar-Bold.ttf") format(truetype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Eczar:wght@400;500&display=swap');
 
-@font-face {
-  font-family: "AN";
-  src: url("https://github.com/amoahy15/amoahy15.github.io/blob/main/archivonarrow/ArchivoNarrow-Italic%5Bwght%5D.ttf") format(truetype);
-}
