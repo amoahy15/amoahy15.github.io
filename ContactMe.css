@@ -6,7 +6,7 @@ body {
   font-weight: 700;
   letter-spacing: 1.4px;
   font-family: "Eczar", "Times New Roman", Times, serif;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 span{
   color: #046f85;
@@ -17,7 +17,8 @@ header {
   display: block;
   text-align: center;
   opacity: 0.8;
-  font-family: "Times New Roman", Courier, monospace;
+  font-family: 'Eczar', serif;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 nav ul {
