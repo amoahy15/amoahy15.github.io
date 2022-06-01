@@ -1,80 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <title>Contact Me</title>
-        <meta charset="UTF-8" />
-        <meta name="author" content="Humphrey Amoakohene" />
-        <meta name="description" content="This is the Contact Me Page" />
-        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
-        <link rel="stylesheet" href="ContactMe.css" type="text/css" />
-    </head>
-
+<head>
+    <title>Contact Me</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Humphrey Amoakohene" />
+    <meta name="description" content="This is the landing page for my Github Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/WFU.png" type="image/x-icon" />
+    <link rel="stylesheet" href="ContactMe.css" type="text/css" />
+</head>
+</head>
 
 <body>
     <div>
         <header class="container">
             <nav>
-                <ul>
-                    <li><a href="/index.html" aria-label="primary-navigation" aria-current="page">Home</a></li>
-                    <li><a href="/About Me.html">About Me</a></li>
-                    <li><a href="/Education.html">Education</a></li>
-                    <li><a href="/Projects.html">Projects</a></li>
-                    <li><a href="/Contact Me.html">Contact</a></li>
+                <ul class=>
+                    <li><a class="special-a" href="/Main.html" aria-label="primary-navigation" aria-current="page">Home</a></li>
+                    <li><a class="special-a"  href="/About Me.html">About Me</a></li>
+                    <li><a class="special-a"  href="/Education.html">Education</a></li>
+                    <li><a class="special-a"  href="/Projects.html">Projects</a></li>
+                    <li><a class="special-a"  href="/Contact Me.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
-    <div>
-        <div class="body-h1-p">
-            <h1>
-                Contact Me
-            </h1>
-
-            <p>
-                If you have any questions I will be happy to help. Feel free to contact me by email and
-                I will be sure to get to you as soon as possible.
-            </p>
-
-
-
-        </div>
-        <div>
-            <form action="8c8df80d9186d238cf81e16e73540d36" method="post"enctype=”multipart/form-data” name="EmailForm">
-                <div class="row input-container">
-                    <div>
-                        <div class="styled-input wide">
-                            <label></label>
-                            <input type="text" required name="Name" autocomplete="on" placeholder="Name" autofocus />
-    
-                        </div>
+    </div>
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
                     </div>
-                    <div>
-                        <div class="styled-input">
-                            <label for="email"></label>
-                            <input type="text" required placeholder="Email" />
-                        
-                        </div>
-                    </div>
-                    <div>
-                        <div class="styled-input" style="float:right;">
-                            <label for="phone">:</label>
-                            <input type="tel" name="phone" id="phone" placeholder="Phone:"
-                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="styled-input wide">
-                            <textarea required placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div>
-                        <button type="submit" formmethod="post" value="Send"> Submit</button>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
                     </div>
                 </div>
-            
-            </form>
-
-        </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>US</span>
+        
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +1 917-242-8950</div>
+                    </div>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <form action="8c8df80d9186d238cf81e16e73540d36" method="post" enctype=”multipart/form-data”
+                                name="EmailForm">
+                                <div class="app-form-group">
+                                    <input class="app-form-control" type="text" required name="Name" autocomplete="on"
+                                        placeholder="NAME" autofocus />
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" type="text" required placeholder="Email" />
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" type="tel" name="phone" id="phone"
+                                        placeholder="Phone:" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                                </div>
+                                <div class="app-form-group message">
+                                    <textarea class="app-form-control" required placeholder="Message"></textarea>
+                                </div>
+                                <div class="app-form-group buttons">
+                                    <button class="app-form-button" type="reset">CANCEL</button>
+                                    <button class="app-form-button" type="submit" formmethod="post" value="Send">
+                                        SEND</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="credits">
+                Inspired by
+                <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
+                  <svg class="dribbble" viewBox="0 0 200 200">
+                    <g stroke="#ffffff" fill="none">
+                      <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
+                      <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
+                      <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
+                      <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
+                    </g>
+                  </svg>
+                  Gururaj
+                </a>
+              </div>
 
 
 
