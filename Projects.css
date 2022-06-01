@@ -126,12 +126,12 @@ span {
   justify-content: center;
   font-size: 35px;
   font-family: "Lato", "Eczar", "Archivo Narrow", serif;
+  margin: 5px;
 }
 h2 {
   display: flex;
   font-size: 30px;
   color: white;
-  opacity: 0.8;
   margin: 1px;
   font-family: "Lato", "Eczar", "Archivo Narrow", serif;
 }
@@ -139,7 +139,6 @@ p {
   display: flex;
   font-size: 15px;
   color: white;
-  opacity: 0.7;
   margin: 3px;
   font-family: "Lato", "Eczar", "Archivo Narrow", serif;
 }
@@ -189,9 +188,11 @@ a {
   align-items: center;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
   font-size: 60px;
+  margin: 5px;
 }
 .waviy span {
   position: relative;
+  margin: 5px;
   display: inline-block;
   color: #fff;
   opacity: 0.8;
