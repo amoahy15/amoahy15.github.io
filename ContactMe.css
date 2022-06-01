@@ -97,6 +97,7 @@ textarea:-webkit-autofill,
 select:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #3e3e3e inset !important;
   -webkit-text-fill-color: #999 !important;
+  background-clip: content-box !important;
 }
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
