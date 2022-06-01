@@ -11,8 +11,7 @@ body {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  font-family: 'Eczar', serif;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: "Lato", "Eczar", "Archivo Narrow", serif;
 }
 
 header {
@@ -21,8 +20,7 @@ header {
   display: block;
   text-align: center;
   opacity: 0.8;
-  font-family: "Eczar", serif;
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Lato", "Eczar", "Archivo Narrow", serif;
 }
 .waviy {
   position: relative;
