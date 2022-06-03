@@ -8,11 +8,6 @@ body {
   font-family: "Lato", "Eczar", "Archivo Narrow", serif;
   min-height: 100vh;
 }
-span {
-  color: #046f85;
-  display: inline;
-  margin: 5px;
-}
 header {
   font-size: 15px;
   box-sizing: border-box;
@@ -21,6 +16,32 @@ header {
   opacity: 0.8;
   font-family: "Lato", "Eczar", "Archivo Narrow", serif;
 }
+span {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Lato", "Eczar", "Archivo Narrow", serif;
+  }
+  h2 {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    margin: 1px;
+    font-family: "Lato", "Eczar", "Archivo Narrow", serif;
+  }
+  p {
+    display: flex;
+    font-size: 15px;
+    color: white;
+    margin: 3px;
+    font-family: "Lato", "Eczar", "Archivo Narrow", serif;
+  }
+  a {
+    text-align: center;
+    font-family: "Lato", "Eczar", "Archivo Narrow", serif;
+  }
+  
 
 nav ul {
   margin: 0;
@@ -120,32 +141,6 @@ select:-webkit-autofill {
   flex: 0 1 700px;
   margin: auto;
   padding: 10px;
-}
-
-span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 35px;
-  font-family: "Lato", "Eczar", "Archivo Narrow", serif;
-}
-h2 {
-  display: flex;
-  font-size: 30px;
-  color: white;
-  margin: 1px;
-  font-family: "Lato", "Eczar", "Archivo Narrow", serif;
-}
-p {
-  display: flex;
-  font-size: 15px;
-  color: white;
-  margin: 3px;
-  font-family: "Lato", "Eczar", "Archivo Narrow", serif;
-}
-a {
-  text-align: center;
-  font-family: "Lato", "Eczar", "Archivo Narrow", serif;
 }
 
 .btn {
