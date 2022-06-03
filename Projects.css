@@ -10,6 +10,8 @@ body {
 }
 span {
   color: #046f85;
+  display: inline;
+  margin: 5px;
 }
 header {
   font-size: 15px;
