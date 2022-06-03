@@ -24,7 +24,8 @@ span {
     font-family: "Lato", "Eczar", "Archivo Narrow", serif;
   }
   h2 {
-    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 30px;
     color: white;
     margin: 1px;
