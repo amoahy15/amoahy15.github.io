@@ -138,10 +138,6 @@ h1 {
   position: relative;
 }
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
@@ -157,17 +153,14 @@ html {
 
 @media screen and (max-width: 650px) {
   .column {
-    width: 50%;
+    width: 100%;
     display: block;
-    float: right;
+    position: relative;
   }
-  img {
-    max-width: 100%;
-    height: auto;
+  h2{
+    width: 100%;
   }
-  p{
-    display: block;
-  }
+ 
 }
 
 .card {
@@ -175,10 +168,11 @@ html {
   float: right;
 }
 
-.container {
+.container2{
   padding: 0 16px;
-  
 }
+
+
 
 p {
   display: flex;
@@ -190,6 +184,7 @@ p {
 }
 h2 {
   display: flex;
+  position: relative;
   color: white;
   font-size: 40px;
   font-family: "Lato", "Eczar", "Archivo Narrow", serif;
