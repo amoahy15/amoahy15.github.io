@@ -117,7 +117,7 @@ select:-webkit-autofill {
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
   text-transform: uppercase;
   animation: flip 2s infinite;
@@ -140,7 +140,7 @@ select:-webkit-autofill {
   margin: auto;
   padding: 10px;
   min-width: 97.3%;
-  min-height: 50vh;
+  min-height: 40vh;
   justify-content: center;
   text-align: center;
   align-items: center;
