@@ -173,6 +173,7 @@ html {
 
 .container {
   padding: 0 16px;
+  
 }
 
 .container::after,
