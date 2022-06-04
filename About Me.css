@@ -135,6 +135,7 @@ h1 {
   width: 40%;
   height: 100%;
   min-height: 70vh;
+  position: relative;
 }
 
 html {
@@ -179,16 +180,6 @@ html {
   
 }
 
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
 p {
   display: flex;
   color: white;
