@@ -197,7 +197,7 @@ h2 {
 }
 
 .download-a {
-  background-color: #ffffff;
+  background-image: linear-gradient(to top, #020024, #046f85);
   border: solid 1px #e6e6e6;
   border-radius: 2px;
   display: inline-block;
@@ -210,7 +210,7 @@ h2 {
 }
 
 .download-a span {
-  background: #f2594b;
+  background: #a9a9a9;
   border-radius: 4px;
   color: #ffffff;
   display: inline-block;
@@ -229,7 +229,7 @@ h2 {
 
 .download-a:before,
 .download-a:after {
-  background: #ffffff;
+  background-image: linear-gradient(to bottom, #020024, #046f85);
   border: solid 3px #9fb4cc;
   border-radius: 4px;
   content: '';
